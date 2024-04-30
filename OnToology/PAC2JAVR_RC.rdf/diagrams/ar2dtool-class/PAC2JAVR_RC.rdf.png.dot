@@ -1,0 +1,43 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "untitled-ontology-6:LeisureTraveler" "untitled-ontology-6:Company" "untitled-ontology-6:Flight" "-5a08dce9:18f2e981b03:-7ff6" "untitled-ontology-6:Employee" "untitled-ontology-6:Recommended" "untitled-ontology-6:Customer" "untitled-ontology-6:Service" "untitled-ontology-6:NotRecommended" "untitled-ontology-6:Economy" "untitled-ontology-6:BussinesTraveler" "untitled-ontology-6:Rating" "-5a08dce9:18f2e981b03:-7ffa" "untitled-ontology-6:Bussines" "untitled-ontology-6:Person" "untitled-ontology-6:Recommendation" "untitled-ontology-6:CommentDetailed" "-5a08dce9:18f2e981b03:-7ff8" "untitled-ontology-6:Comment" "-5a08dce9:18f2e981b03:-7ffc" ; /*classes style*/
+	"untitled-ontology-6:NotRecommended" -> "untitled-ontology-6:Recommended" [ label = "owl:disjointWith" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ffb" [ label = "owl:intersectionOf" ];
+	"NULL" -> "untitled-ontology-6:has_rate" [ label = "owl:onProperty" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ff7" [ label = "owl:intersectionOf" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ff5" [ label = "rdf:rest" ];
+	"NULL" -> "untitled-ontology-6:Person" [ label = "rdf:first" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "untitled-ontology-6:Rating" [ label = "owl:onClass" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ffa" [ label = "rdf:first" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ff6" [ label = "rdf:first" ];
+	"NULL" -> "untitled-ontology-6:Customer" [ label = "owl:complementOf" ];
+	"NULL" -> "untitled-ontology-6:Employee" [ label = "owl:complementOf" ];
+	"NULL" -> "-5a08dce9:18f2e981b03:-7ff9" [ label = "rdf:rest" ];
+	"untitled-ontology-6:Com_0000" -> "untitled-ontology-6:Jose" [ label = "untitled-ontology-6:has_writter" ];
+	"untitled-ontology-6:Alicia" -> "untitled-ontology-6:QatarAirways" [ label = "untitled-ontology-6:has_employer" ];
+	"untitled-ontology-6:BussinesTraveler" -> "untitled-ontology-6:LeisureTraveler" [ label = "owl:disjointWith" ];
+	"untitled-ontology-6:Customer" -> "untitled-ontology-6:Employee" [ label = "owl:disjointWith" ];
+	"untitled-ontology-6:Customer" -> "-5a08dce9:18f2e981b03:-7ffc" [ label = "owl:equivalentClass" ];
+	"untitled-ontology-6:Comment" -> "untitled-ontology-6:Recommendation" [ label = "owl:equivalentClass" ];
+	"untitled-ontology-6:Bussines" -> "untitled-ontology-6:Economy" [ label = "owl:disjointWith" ];
+	"untitled-ontology-6:QatarAirways" -> "untitled-ontology-6:Ryanair" [ label = "owl:differentFrom" ];
+	"untitled-ontology-6:Employee" -> "-5a08dce9:18f2e981b03:-7ff8" [ label = "owl:equivalentClass" ];
+	"untitled-ontology-6:Recommendation" -> "owl:Thing" [ label = "owl:equivalentClass" ];
+	"untitled-ontology-6:Comment" -> "xsd:integer" [ label = "untitled-ontology-6:commentID" ];
+	"untitled-ontology-6:Comment" -> "untitled-ontology-6:Service" [ label = "untitled-ontology-6:has_service" ];
+	"untitled-ontology-6:Service" -> "untitled-ontology-6:Rating" [ label = "untitled-ontology-6:has_rate" ];
+	"untitled-ontology-6:Comment" -> "xsd:dateTime" [ label = "untitled-ontology-6:hasPostingDate" ];
+	"untitled-ontology-6:Comment" -> "untitled-ontology-6:Customer" [ label = "untitled-ontology-6:has_writter" ];
+	"untitled-ontology-6:Service" -> "untitled-ontology-6:Comment" [ label = "untitled-ontology-6:has_comment" ];
+	"untitled-ontology-6:CommentDetailed" -> "xsd:string" [ label = "untitled-ontology-6:hasComment" ];
+	"untitled-ontology-6:Flight" -> "xsd:string" [ label = "untitled-ontology-6:hasOrigin" ];
+	"untitled-ontology-6:Flight" -> "xsd:string" [ label = "untitled-ontology-6:hasDestination" ];
+	"untitled-ontology-6:Person" -> "xsd:string" [ label = "untitled-ontology-6:hasName" ];
+	"untitled-ontology-6:Employee" -> "untitled-ontology-6:Company" [ label = "untitled-ontology-6:has_employer" ];
+	"untitled-ontology-6:Service" -> "xsd:dateTime" [ label = "untitled-ontology-6:hasServiceDate" ];
+	"untitled-ontology-6:Comment" -> "xsd:boolean" [ label = "untitled-ontology-6:isVerified" ];
+	"untitled-ontology-6:Rating" -> "xsd:integer" [ label = "untitled-ontology-6:hasRate" ];
+
+}

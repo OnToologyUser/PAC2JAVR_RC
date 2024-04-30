@@ -1,0 +1,37 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-6:OnBoardService" "untitled-ontology-6:LeisureTraveler" "untitled-ontology-6:Company" "untitled-ontology-6:Flight" "untitled-ontology-6:Employee" "untitled-ontology-6:Recommended" "untitled-ontology-6:GroundStaff" "untitled-ontology-6:Customer" "untitled-ontology-6:Service" "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity" "untitled-ontology-6:NotRecommended" "untitled-ontology-6:Economy" "untitled-ontology-6:Aircraft" "untitled-ontology-6:BussinesTraveler" "untitled-ontology-6:GroundService" "untitled-ontology-6:Rating" "untitled-ontology-6:Bussines" "untitled-ontology-6:Seat" "untitled-ontology-6:InflightEntertainement" "untitled-ontology-6:Person" "untitled-ontology-6:Recommendation" "untitled-ontology-6:CabinStaff" "untitled-ontology-6:CommentDetailed" "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink" "untitled-ontology-6:Comment" ; /*classes style*/
+	"untitled-ontology-6:Flight" -> "untitled-ontology-6:Service" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:LeisureTraveler" -> "untitled-ontology-6:Customer" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:GroundService" -> "untitled-ontology-6:Service" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:NotRecommended" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:NotRecommended" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:GroundStaff" -> "untitled-ontology-6:Employee" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Recommended" -> "untitled-ontology-6:Service" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Recommended" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:BussinesTraveler" -> "untitled-ontology-6:Customer" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity" -> "untitled-ontology-6:OnBoardService" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Customer" -> "untitled-ontology-6:Person" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:InflightEntertainement" -> "untitled-ontology-6:OnBoardService" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Bussines" -> "untitled-ontology-6:Seat" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Employee" -> "untitled-ontology-6:Person" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Aircraft" -> "untitled-ontology-6:Service" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:OnBoardService" -> "untitled-ontology-6:Service" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Rating" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Rating" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink" -> "untitled-ontology-6:OnBoardService" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Recommendation" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Seat" -> "untitled-ontology-6:OnBoardService" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:CabinStaff" -> "untitled-ontology-6:Employee" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Service" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Service" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Company" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Company" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:CommentDetailed" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:CommentDetailed" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Person" -> "untitled-ontology-6:Recommendation" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Person" -> "untitled-ontology-6:Comment" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-6:Economy" -> "untitled-ontology-6:Seat" [ label = "rdfs:subClassOf" ];
+
+}

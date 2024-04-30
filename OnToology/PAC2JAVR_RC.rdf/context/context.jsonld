@@ -1,0 +1,144 @@
+{
+  "@context" : {
+    "LeisureTraveler" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler"
+    },
+    "Economy" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy"
+    },
+    "Bussines" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines"
+    },
+    "Recommendation" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+    },
+    "Comment" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+    },
+    "Recommended" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "has_employer" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer",
+      "@type" : "@id"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "BussinesTraveler" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler"
+    },
+    "hasComment" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Customer" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasRate" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+    },
+    "NotRecommended" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat"
+    },
+    "commentID" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Company" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company"
+    },
+    "isVerified" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating"
+    },
+    "has_writter" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter",
+      "@type" : "@id"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft"
+    },
+    "CommentDetailed" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed"
+    },
+    "has_service" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service",
+      "@type" : "@id"
+    },
+    "Connectivity" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity"
+    },
+    "Employee" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+    },
+    "GroundStaff" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight"
+    },
+    "CabinStaff" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff"
+    },
+    "has_rate" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate",
+      "@type" : "@id"
+    },
+    "hasPostingDate" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "GroundService" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService"
+    },
+    "hasServiceDate" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "InflightEntertainement" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Service" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+    },
+    "Drink" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink"
+    },
+    "has_comment" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment",
+      "@type" : "@id"
+    },
+    "OnBoardService" : {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService"
+    }
+  }
+}
