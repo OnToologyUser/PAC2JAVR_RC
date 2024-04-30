@@ -1,0 +1,354 @@
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a written comment by a customer" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> <http://www.w3.org/2000/01/rdf-schema#label> "has_comment" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the employer of a person" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.w3.org/2000/01/rdf-schema#label> "has_employer" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the rating by a customer" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> <http://www.w3.org/2000/01/rdf-schema#label> "has_rating" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes that the object refers a service" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> <http://www.w3.org/2000/01/rdf-schema#label> "has_service" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the person who writtes the comment" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.w3.org/2000/01/rdf-schema#label> "has_writter" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> <http://www.w3.org/2000/01/rdf-schema#comment> "ID to identify the comment" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> <http://www.w3.org/2000/01/rdf-schema#label> "commentID" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes that the object has a comment" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> <http://www.w3.org/2000/01/rdf-schema#label> "hasComment" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Destination of the flight" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> <http://www.w3.org/2000/01/rdf-schema#label> "hasDestination" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the person" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "hasUserName" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origin of the flight" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "hasOrigin" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the comment was written" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> <http://www.w3.org/2000/01/rdf-schema#label> "hasPostingDate" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the rate" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> <http://www.w3.org/2000/01/rdf-schema#label> "hasRate" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Service's date" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> <http://www.w3.org/2000/01/rdf-schema#label> "hasServiceDate" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> <http://www.w3.org/2000/01/rdf-schema#comment> "Show if the comment has been verified" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> <http://www.w3.org/2000/01/rdf-schema#label> "isVerified" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines> <http://www.w3.org/2000/01/rdf-schema#label> "Bussines" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler> <http://www.w3.org/2000/01/rdf-schema#label> "BussinesTraveler" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#label> "CabinStaff" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> <http://www.w3.org/2000/01/rdf-schema#label> "CommentDetailed" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> <http://www.w3.org/2000/01/rdf-schema#label> "Airline" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> <http://www.w3.org/2000/01/rdf-schema#label> "Customer" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> <http://www.w3.org/2000/01/rdf-schema#label> "Economy" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> <http://www.w3.org/2000/01/rdf-schema#label> "Employee" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService> <http://www.w3.org/2000/01/rdf-schema#label> "GroundService" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff> <http://www.w3.org/2000/01/rdf-schema#label> "GroundStaff" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement> <http://www.w3.org/2000/01/rdf-schema#label> "InflightEntertainement" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> <http://www.w3.org/2000/01/rdf-schema#label> "LeisureTraveler" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> .
+_:genid9 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> <http://www.w3.org/2000/01/rdf-schema#label> "NotRecommended" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> <http://www.w3.org/2000/01/rdf-schema#label> "OnBoardService" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> <http://www.w3.org/2000/01/rdf-schema#label> "Recommendation" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> .
+_:genid10 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> <http://www.w3.org/2000/01/rdf-schema#label> "Recommended" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Seat" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink> <http://www.w3.org/2000/01/rdf-schema#label> "Food&Drink" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity> <http://www.w3.org/2000/01/rdf-schema#label> "Wifi&Connectivity" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> "0000000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> "JAVR_1981" .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> "Iverness" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> "London" .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> "2023-12-10T08:40:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> .
+# 
+# http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid11 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

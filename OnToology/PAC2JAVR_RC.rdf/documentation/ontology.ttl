@@ -1,0 +1,373 @@
+@prefix : <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-8#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-8#> .
+
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-8> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                    rdfs:comment "Denotes a written comment by a customer" ;
+                                                                                    rdfs:label "has_comment" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> ;
+                                                                                     rdfs:comment "Denotes the employer of a person" ;
+                                                                                     rdfs:label "has_employer" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                 rdfs:range <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> ;
+                                                                                 rdfs:comment "Denotes the rating by a customer" ;
+                                                                                 rdfs:label "has_rating" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                    rdfs:comment "Denotes that the object refers a service" ;
+                                                                                    rdfs:label "has_service" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> ;
+                                                                                    rdfs:comment "Denotes the person who writtes the comment" ;
+                                                                                    rdfs:label "has_writter" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                  rdfs:range xsd:integer ;
+                                                                                  rdfs:comment "ID to identify the comment" ;
+                                                                                  rdfs:label "commentID" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> ;
+                                                                                   rdfs:range xsd:string ;
+                                                                                   rdfs:comment "Denotes that the object has a comment" ;
+                                                                                   rdfs:label "hasComment" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> ;
+                                                                                       rdfs:range xsd:string ;
+                                                                                       rdfs:comment "Destination of the flight" ;
+                                                                                       rdfs:label "hasDestination" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> ;
+                                                                                rdfs:range xsd:string ;
+                                                                                rdfs:comment "Name of the person" ;
+                                                                                rdfs:label "hasUserName" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> ;
+                                                                                  rdfs:range xsd:string ;
+                                                                                  rdfs:comment "Origin of the flight" ;
+                                                                                  rdfs:label "hasOrigin" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                       rdfs:range xsd:dateTime ;
+                                                                                       rdfs:comment "Date the comment was written" ;
+                                                                                       rdfs:label "hasPostingDate" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> ;
+                                                                                rdfs:range xsd:integer ;
+                                                                                rdfs:comment "Value of the rate" ;
+                                                                                rdfs:label "hasRate" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                       rdfs:range xsd:dateTime ;
+                                                                                       rdfs:comment "Service's date" ;
+                                                                                       rdfs:label "hasServiceDate" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                   rdfs:range xsd:boolean ;
+                                                                                   rdfs:comment "Show if the comment has been verified" ;
+                                                                                   rdfs:label "isVerified" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                 rdfs:label "Aircraft" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> ;
+                                                                                 owl:disjointWith <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> ;
+                                                                                 rdfs:label "Bussines" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> ;
+                                                                                         owl:disjointWith <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> ;
+                                                                                         rdfs:label "BussinesTraveler" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> ;
+                                                                                   rdfs:label "CabinStaff" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> rdf:type owl:Class ;
+                                                                                owl:equivalentClass <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                                rdfs:label "Comment" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                                        <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                                        rdfs:label "CommentDetailed" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                                <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                                rdfs:label "Airline" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> rdf:type owl:Class ;
+                                                                                 owl:equivalentClass [ owl:intersectionOf ( <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person>
+                                                                                                                            [ rdf:type owl:Class ;
+                                                                                                                              owl:complementOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee>
+                                                                                                                            ]
+                                                                                                                          ) ;
+                                                                                                       rdf:type owl:Class
+                                                                                                     ] ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> ;
+                                                                                 owl:disjointWith <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> ;
+                                                                                 rdfs:label "Customer" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> ;
+                                                                                rdfs:label "Economy" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> rdf:type owl:Class ;
+                                                                                 owl:equivalentClass [ owl:intersectionOf ( <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person>
+                                                                                                                            [ rdf:type owl:Class ;
+                                                                                                                              owl:complementOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer>
+                                                                                                                            ]
+                                                                                                                          ) ;
+                                                                                                       rdf:type owl:Class
+                                                                                                     ] ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> ;
+                                                                                 rdfs:label "Employee" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                               rdfs:label "Flight" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                      rdfs:label "GroundService" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee> ;
+                                                                                    rdfs:label "GroundStaff" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> ;
+                                                                                               rdfs:label "InflightEntertainement" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer> ;
+                                                                                        rdfs:label "LeisureTraveler" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended> rdf:type owl:Class ;
+                                                                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> ;
+                                                                                                             owl:maxQualifiedCardinality "4"^^xsd:nonNegativeInteger ;
+                                                                                                             owl:onClass <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating>
+                                                                                                           ] ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                                       <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                                       owl:disjointWith <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> ;
+                                                                                       rdfs:label "NotRecommended" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                       rdfs:label "OnBoardService" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                               rdfs:label "Person" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                               rdfs:label "Rating" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> rdf:type owl:Class ;
+                                                                                       owl:equivalentClass owl:Thing ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                       rdfs:label "Recommendation" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended> rdf:type owl:Class ;
+                                                                                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate> ;
+                                                                                                          owl:minQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                                                                                                          owl:onClass <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating>
+                                                                                                        ] ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ,
+                                                                                                    <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> ;
+                                                                                    rdfs:label "Recommended" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> ;
+                                                                             rdfs:label "Seat" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ,
+                                                                                                <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation> ;
+                                                                                rdfs:label "Service" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> ;
+                                                                                   rdfs:label "Food&Drink" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService> ;
+                                                                                          rdfs:label "Wifi&Connectivity" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia> rdf:type owl:NamedIndividual ;
+                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment> ;
+                                                                                 <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter> <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> ;
+                                                                                 <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID> 0000000000 ;
+                                                                                 <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler> ;
+                                                                             <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName> "JAVR_1981" .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight> ;
+                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination> "Iverness" ;
+                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin> "London" ;
+                                                                               <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate> "2023-12-10T08:40:00"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> .
+
+
+###  http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair
+<http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company> .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways>
+                        <http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair>
+                      )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

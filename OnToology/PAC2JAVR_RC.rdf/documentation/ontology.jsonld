@@ -1,0 +1,608 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways"
+    }, {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Alicia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Bussines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bussines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#BussinesTraveler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BussinesTraveler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CabinStaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CabinStaff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Com_0000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0000000000"
+  } ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose"
+  } ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CommentDetailed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Economy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Employee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Food&Drink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Food&Drink"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "GroundService"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#GroundStaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "GroundStaff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#InflightEntertainement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "InflightEntertainement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Jose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName" : [ {
+    "@value" : "JAVR_1981"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#LeisureTraveler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LeisureTraveler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#NotRecommended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "NotRecommended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OnBoardService"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QR6017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination" : [ {
+    "@value" : "Iverness"
+  } ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin" : [ {
+    "@value" : "London"
+  } ],
+  "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-12-10T08:40:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#QatarAirways",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recommendation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recommended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Seat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  }, {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Recommendation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Wifi&Connectivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Wifi&Connectivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#OnBoardService"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#commentID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ID to identify the comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "commentID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasComment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes that the object has a comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#CommentDetailed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasComment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasDestination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Destination of the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasDestination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of the person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasUserName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Origin of the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasOrigin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasPostingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date the comment was written"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasPostingDate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Value of the rate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasRate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#hasServiceDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service's date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasServiceDate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes a written comment by a customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_employer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes the employer of a person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Employee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_employer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_rate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes the rating by a customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes that the object refers a service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#has_writter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Denotes the person who writtes the comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_writter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#isVerified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Show if the comment has been verified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-6#Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isVerified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/josé/ontologies/2024/3/untitled-ontology-8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+} ]
